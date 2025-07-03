@@ -26,12 +26,12 @@ The output is saved as `.csv` files, which makes it easy to review the results o
 Fetch data for the past 365 days using the USGS API.
 
 **Script**: `scripts/fetch_earthquake_data.py` 
-**Output**: `data/usgs_earthquakes_raw.json`
+**Output**: `data/raw/usgs_earthquakes_raw.json`
 
 ### 2. Data Transformation
 
 Extract and clean the following fields:
-- Timestamp (converted to UTC datetime)
+- Time (converted to UTC datetime)
 - Place
 - Magnitude
 - Longitude, Latitude, Depth
