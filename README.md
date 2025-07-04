@@ -1,11 +1,11 @@
 # USGS Earthquake Data Pipeline - Assignement
 
-This project simulates a real-world data engineering workflow — from ingestion to transformation and analysis — using a public dataset from the USGS Earthquake API. Everything is done locally using Python, with a proposed AWS architecture for automation and scalability.
+This project simulates a real world data engineering workflow, from ingestion to transformation and analysis using a public dataset from the USGS Earthquake API. Everything is done locally using Python, with a proposed AWS architecture for automation and scalability.
 
 
 ## Project Overview
 
-Over the past few days, I worked on a small pipeline to fetch and analyze global earthquake data from the [USGS Earthquake API](https://earthquake.usgs.gov/fdsnws/event/1/). The goal was to simulate a real-world scenario where raw JSON data is ingested, transformed into a structured format, and used for basic analysis — all using Python.
+Over the past few days, I worked on a small pipeline to fetch and analyze global earthquake data from the [USGS Earthquake API](https://earthquake.usgs.gov/fdsnws/event/1/). The goal was to simulate a real world scenario where raw JSON data is ingested, transformed into a structured format, and used for basic analysis using Python.
 
 The pipeline is divided into three stages:
 - **Data Ingestion** - Retrieving the past year’s earthquake events.
@@ -16,7 +16,7 @@ Each stage is modular and can be run independently.
 
 > While building this, I ran into a few interesting challenges. For example, the `place` field in the USGS data doesn't follow a consistent format (some entries include both city and country, others only regions). To extract countries or regions, I used a basic string-splitting approach. It works for most cases, but I'd consider geolocation enrichment for more accuracy in a production setting.
 
-The output is saved as `.csv` files, which makes it easy to review the results or plug into downstream tools. In a production environment, I'd likely make use of `.parquet` format due to its efficiency and support for schema evolution.
+The output is saved as `.csv` files, which makes it easy to review the results or plug into downstream tools. In a production environment, I would make use of `.parquet` format due to its efficiency and support for schema evolution.
 
 
 ## Pipeline Structure
