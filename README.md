@@ -90,10 +90,10 @@ pip install -r requirements.txt
 Using bash: 
 
 **Step 1: Ingest the data from the USGS API**
-python scripts/fetch_earthquake_data.py
+- python scripts/fetch_earthquake_data.py
 
 **Step 2: Transform the raw JSON to tabular format**
-python scripts/transform_earthquake_data.py
+- python scripts/transform_earthquake_data.py
 
 **Step 3: Perform analysis and export the results**
-python scripts/analyze_earthquake_data.py
+- python scripts/analyze_earthquake_data.py
