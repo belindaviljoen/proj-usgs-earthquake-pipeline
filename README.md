@@ -78,8 +78,8 @@ To scale and automate this pipeline, I designed an AWS-based architecture using 
 
 Using bash:
 
-git clone https://github.com/belindaviljoen/proj-usgs-earthquake-pipeline.git
-cd proj-usgs-earthquake-pipeline
+- git clone https://github.com/belindaviljoen/proj-usgs-earthquake-pipeline.git
+- cd proj-usgs-earthquake-pipeline
 
 #### 2. Install Dependencies
 
