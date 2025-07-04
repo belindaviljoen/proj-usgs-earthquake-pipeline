@@ -59,9 +59,11 @@ Performs:
 
 To scale and automate this pipeline, I designed an AWS-based architecture using the following services:
 
+<img src="pipeline-architecture/USGS EARTHQUAKE PIPELINE ARCHITECTURE.drawio.png" alt="USGS Earthquake Pipeline Architecture" width="800">
+
 ### Architecture Components
 
-- **Amazon S3** – Store raw and processed files in separate prefixes (`/raw/`, `/processed/`)
+- **Amazon S3** – Store raw and processed files in separate prefixes (`/raw/`, `/sem/`)
 - **AWS Lambda** – To handle scheduled ingestion and light processing.
 - **AWS Glue** – Perform transformations and catalog data.
 - **AWS Glue Data Catalog** – Store metadata for querying with Athena.
