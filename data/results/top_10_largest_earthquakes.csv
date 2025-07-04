@@ -1,11 +1,11 @@
 time,place,magnitude,longitude,latitude,depth,type,date
 2025-06-28 08:32:21.049000+00:00,Scotia Sea,6.6,-38.9472,-60.9583,10.0,earthquake,2025-06-28
 2025-05-20 15:05:59.387000+00:00,"89 km ENE of Angoram, Papua New Guinea",6.5,144.8116,-3.7575,16.819,earthquake,2025-05-20
-2025-05-14 04:15:40.513000+00:00,"142 km W of Neiafu, Tonga",6.4,-175.3343,-18.7126,260.0,earthquake,2025-05-14
 2025-06-06 17:15:06.807000+00:00,"46 km SW of Diego de Almagro, Chile",6.4,-70.4056,-26.6504,75.0,earthquake,2025-06-06
+2025-05-14 04:15:40.513000+00:00,"142 km W of Neiafu, Tonga",6.4,-175.3343,-18.7126,260.0,earthquake,2025-05-14
 2025-06-08 13:08:05.772000+00:00,"15 km NE of Paratebueno, Colombia",6.3,-73.139,4.4904,9.0,earthquake,2025-06-08
 2025-05-31 22:26:22.511000+00:00,Kermadec Islands region,6.3,-178.0952,-27.8236,10.0,earthquake,2025-05-31
-2025-06-24 01:58:05.961000+00:00,east of the Philippine Islands,6.2,129.8586,7.9876,5.0,earthquake,2025-06-24
-2025-05-22 03:19:35.518000+00:00,"66 km SE of Emporeío, Greece",6.2,25.9159,35.8915,64.0,earthquake,2025-05-22
-2025-06-25 22:16:15.483000+00:00,southern Mid-Atlantic Ridge,6.2,-17.1168,-35.5606,10.0,earthquake,2025-06-25
 2025-05-30 05:36:38.351000+00:00,southwest of Africa,6.2,9.1051,-53.2836,10.0,earthquake,2025-05-30
+2025-06-07 23:20:45.671000+00:00,western Indian-Antarctic Ridge,6.2,115.9955,-47.8272,10.0,earthquake,2025-06-07
+2025-06-24 01:58:05.961000+00:00,east of the Philippine Islands,6.2,129.8586,7.9876,5.0,earthquake,2025-06-24
+2025-06-25 22:16:15.483000+00:00,southern Mid-Atlantic Ridge,6.2,-17.1168,-35.5606,10.0,earthquake,2025-06-25
