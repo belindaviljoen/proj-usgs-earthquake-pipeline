@@ -59,7 +59,7 @@ Performs:
 
 To scale and automate this pipeline, I designed an AWS-based architecture using the following services:
 
-<img src="pipeline-architecture/USGS EARTHQUAKE PIPELINE ARCHITECTURE.drawio.png" alt="USGS Earthquake Pipeline Architecture" width="800">
+<img src="pipeline-architecture/USGS_EARTHQUAKE_PIPELINE_ARCHITECTURE.drawio.png" alt="USGS Earthquake Pipeline Architecture" width="800">
 
 ### Architecture Components
 
